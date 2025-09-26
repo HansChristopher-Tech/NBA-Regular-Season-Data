@@ -1,0 +1,3 @@
+CREATE DATABASE player_recognition
+CREATE DATABASE player_analytics
+CREATE DATABASE team_sumarries
