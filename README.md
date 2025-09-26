@@ -3,6 +3,10 @@
 ## Overview
 This project explores NBA historical data from 1947 to 2024. It focuses on player performance, team statistics, and league trends, with an emphasis on 3-point shooting, offensive and defensive metrics, All-Star appearances, and major awards.
 
+### Data Cleaning
+  * Used **Python (Pandas)** to clean and preprocess raw NBA datasets.
+  * Generated clean, ready-to-analyze CSV files stored in the folder: `cleaned_data_Sets`.
+  * This step ensured consistency across player stats, team stats, and All-Star/award datasets before performing analysis and visualization.
 ## What I Did
 - **Player Statistical Analysis**
   - Examined all-time seasons in **3-point shooting, offensive, and defensive metrics**.
