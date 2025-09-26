@@ -1,7 +1,7 @@
 # NBA Historical Data Analysis
 
 ## Overview
-This project explores NBA historical data from 1947 to 2024. It focuses on player performance, team statistics, and league trends, with an emphasis on 3-point shooting, offensive and defensive metrics, All-Star appearances, and major awards. 
+This project explores NBA historical data from 1947 to 2024. It focuses on player performance, team statistics, and league trends, with an emphasis on 3-point shooting, offensive and defensive metrics, All-Star appearances, and major awards.
 
 ## What I Did
 - **Player Statistical Analysis**
@@ -53,45 +53,52 @@ This project explores NBA historical data from 1947 to 2024. It focuses on playe
 | James Harden    | 2020   | 4.4   | 12.4     | 0.355   | 0.557        | 0.626         |
 | Stephen Curry   | 2025   | 4.4   | 11.2     | 0.397   | 0.623        | 0.618         |
 
-> Steph Curry appears 7 times in the top 10 — dominating 3-point shooting history.
+> Steph Curry appears 7 times in the top 10 — dominating 3-point shooting history.  
+
+**Conclusion:** The evolution of the 3-point shot has transformed NBA scoring, with Curry consistently setting the standard.
 
 ---
 
 ## Greatest Offensive Seasons
 
-| Player             | Season | Points | Assists | Field Goals | Free Throws | 3PTs | PER  | True Shooting | Win Shares | Box Plus/Minus |
-|-------------------|--------|--------|---------|------------|------------|------|------|---------------|------------|----------------|
-| Kareem Abdul-Jabbar| 1972   | 34.8   | 4.6     | 14.29      | 6.2        | 0    | 29.9 | 0.603         | 25.4       | 0              |
-| Wilt Chamberlain   | 1964   | 36.9   | 5       | 15.04      | 6.8        | 0    | 31.6 | 0.537         | 25.0       | 0              |
-| Wilt Chamberlain   | 1962   | 50.4   | 2.4     | 19.99      | 10.4       | 0    | 32.1 | 0.536         | 23.1       | 0              |
-| Kareem Abdul-Jabbar| 1971   | 31.7   | 3.3     | 12.98      | 5.7        | 0    | 29.0 | 0.606         | 22.3       | 0              |
-| Wilt Chamberlain   | 1967   | 24.1   | 7.8     | 9.70       | 4.8        | 0    | 26.5 | 0.637         | 21.9       | 0              |
-| Kareem Abdul-Jabbar| 1973   | 30.2   | 5       | 12.91      | 4.3        | 0    | 28.5 | 0.580         | 21.9       | 0              |
-| Wilt Chamberlain   | 1966   | 33.5   | 5.2     | 13.61      | 6.3        | 0    | 28.3 | 0.547         | 21.4       | 0              |
-| Michael Jordan     | 1988   | 35.0   | 5.9     | 13.05      | 8.8        | 0.1  | 31.7 | 0.603         | 21.2       | 13             |
-| Wilt Chamberlain   | 1963   | 44.8   | 3.4     | 18.27      | 8.3        | 0    | 31.8 | 0.550         | 20.9       | 0              |
-| Oscar Robertson    | 1964   | 31.4   | 11      | 10.63      | 10.1       | 0    | 27.6 | 0.576         | 20.6       | 0              |
+| Player             | Season | Points | Assists | Field Goals | Free Throws | 3PTs | PER  | True Shooting | Win Shares |
+|-------------------|--------|--------|---------|------------|------------|------|------|---------------|------------|
+| Kareem Abdul-Jabbar| 1972   | 34.8   | 4.6     | 14.29      | 6.2        | 0    | 29.9 | 0.603         | 25.4       |
+| Wilt Chamberlain   | 1964   | 36.9   | 5       | 15.04      | 6.8        | 0    | 31.6 | 0.537         | 25.0       |
+| Wilt Chamberlain   | 1962   | 50.4   | 2.4     | 19.99      | 10.4       | 0    | 32.1 | 0.536         | 23.1       |
+| Kareem Abdul-Jabbar| 1971   | 31.7   | 3.3     | 12.98      | 5.7        | 0    | 29.0 | 0.606         | 22.3       |
+| Wilt Chamberlain   | 1967   | 24.1   | 7.8     | 9.70       | 4.8        | 0    | 26.5 | 0.637         | 21.9       |
+| Kareem Abdul-Jabbar| 1973   | 30.2   | 5       | 12.91      | 4.3        | 0    | 28.5 | 0.580         | 21.9       |
+| Wilt Chamberlain   | 1966   | 33.5   | 5.2     | 13.61      | 6.3        | 0    | 28.3 | 0.547         | 21.4       |
+| Michael Jordan     | 1988   | 35.0   | 5.9     | 13.05      | 8.8        | 0.1  | 31.7 | 0.603         | 21.2       |
+| Wilt Chamberlain   | 1963   | 44.8   | 3.4     | 18.27      | 8.3        | 0    | 31.8 | 0.550         | 20.9       |
+| Oscar Robertson    | 1964   | 31.4   | 11      | 10.63      | 10.1       | 0    | 27.6 | 0.576         | 20.6       |
 
-> Kareem’s 1972 season had the **highest win shares in NBA history** with 35 points per game at 60% true shooting.
+> Kareem’s 1972 season had the **highest win shares in NBA history** at 35 points per game with 60% true shooting.
+
+**Conclusion:** Dominant scoring seasons were often paired with exceptional efficiency, particularly from centers like Kareem and Chamberlain.
 
 ---
 
 ## Greatest Defensive Seasons
 
-| Player          | Season | Steals | Blocks | Total Rebounds | STL% | BLK% | TRB% | Defensive Win Shares | Defensive BPM |
-|-----------------|--------|--------|--------|----------------|------|------|------|--------------------|---------------|
-| Bill Russell    | 1964   | 0      | 0      | 24.7           | 0    | 0    | 0    | 16.0               | 0             |
-| Bill Russell    | 1965   | 0      | 0      | 24.1           | 0    | 0    | 0    | 14.4               | 0             |
-| Bill Russell    | 1963   | 0      | 0      | 23.6           | 0    | 0    | 0    | 12.6               | 0             |
-| Bill Russell    | 1962   | 0      | 0      | 23.6           | 0    | 0    | 0    | 11.6               | 0             |
-| Bill Russell    | 1966   | 0      | 0      | 22.8           | 0    | 0    | 0    | 11.4               | 0             |
-| Bill Russell    | 1961   | 0      | 0      | 23.9           | 0    | 0    | 0    | 11.3               | 0             |
-| Wilt Chamberlain| 1968   | 0      | 0      | 23.8           | 0    | 0    | 0    | 10.7               | 0             |
-| Wilt Chamberlain| 1964   | 0      | 0      | 22.3           | 0    | 0    | 0    | 10.6               | 0             |
-| Bill Russell    | 1969   | 0      | 0      | 19.3           | 0    | 0    | 0    | 9.9                | 0             |
-| Dave Cowens     | 1973   | 0      | 0      | 16.2           | 0    | 0    | 17.5 | 9.9                | 0             |
+| Player          | Season | Total Rebounds | Defensive Win Shares |
+|-----------------|--------|----------------|--------------------|
+| Bill Russell    | 1964   | 24.7           | 16.0               |
+| Bill Russell    | 1965   | 24.1           | 14.4               |
+| Bill Russell    | 1963   | 23.6           | 12.6               |
+| Bill Russell    | 1962   | 23.6           | 11.6               |
+| Bill Russell    | 1966   | 22.8           | 11.4               |
+| Bill Russell    | 1961   | 23.9           | 11.3               |
+| Wilt Chamberlain| 1968   | 23.8           | 10.7               |
+| Wilt Chamberlain| 1964   | 22.3           | 10.6               |
+| Bill Russell    | 1969   | 19.3           | 9.9                |
+| Dave Cowens     | 1973   | 16.2           | 9.9                |
 
-> Bill Russell dominates the top defensive seasons with over **7 appearances** in the top 10.
+> Bill Russell dominates the top defensive seasons, showing the importance of rebounds and defensive impact before modern tracking metrics.
+
+**Conclusion:** Defensive dominance, particularly rebounding, was a key driver of team success in early NBA history.
+
 # NBA All-Star Selections Results
 
 ## Top All-Star Players
@@ -101,7 +108,7 @@ This project explores NBA historical data from 1947 to 2024. It focuses on playe
 | LeBron James | 21             |
 | Kareem Abdul-Jabbar | 19      |
 
-> As of 2024, LeBron James surpassed Kareem Abdul-Jabbar with **21 All-Star selections**.
+> LeBron James surpassed Kareem Abdul-Jabbar with **21 All-Star selections** as of 2024.
 
 ---
 
@@ -115,7 +122,7 @@ This project explores NBA historical data from 1947 to 2024. It focuses on playe
 | 2021   | UTA  | 3              |
 | 2020   | MIA  | 2              |
 
-> In 2024, **Philadelphia** had the most All-Stars with **Joel Embiid** and **Tyrese Maxey**.
+> Philadelphia had the most All-Stars in 2024 with **Joel Embiid** and **Tyrese Maxey**.
 
 ---
 
@@ -125,7 +132,8 @@ This project explores NBA historical data from 1947 to 2024. It focuses on playe
 |------------|--------------|-------------|
 | 20.91      | 7.97         | 4.32        |
 
-> On average, every All-Star throughout NBA history has posted roughly **20 points, 8 rebounds, and 4 assists** per game.
+**Conclusion:** All-Stars consistently produce strong overall contributions across points, rebounds, and assists.
+
 # NBA Awards & Career Longevity Results
 
 ## Total Major NBA Awards
@@ -148,7 +156,7 @@ This project explores NBA historical data from 1947 to 2024. It focuses on playe
 |------------|--------------|-------------|
 | 25.99      | 12.27        | 5.69        |
 
-> On average, MVPs score over **25 points**, grab **12 rebounds**, and dish out over **5 assists**. The high rebounds indicate many centers/power forwards, while assists are slightly lower due to fewer guards.
+**Conclusion:** MVP-level performance requires high scoring, rebounding, and playmaking, reflecting dominance by versatile frontcourt players.
 
 ---
 
@@ -163,9 +171,51 @@ This project explores NBA historical data from 1947 to 2024. It focuses on playe
 | Shaquille O'Neal     | 19          |
 | Jason Kidd           | 19          |
 
-> Most ROY winners have long NBA careers, typically exceeding 10 seasons.
+**Conclusion:** Early career accolades like ROY often predict long NBA careers.
+
+# NBA Team Stats and Trends
+
+### Champions vs Non-Champions
+SQL query used:
+
+```sql
+-- Stats of Champions
+WITH winners AS (
+    SELECT *
+    FROM nba_team_stats
+    WHERE champions IS TRUE
+),
+-- Stats of Non-Champions
+losers AS (
+    SELECT *
+    FROM nba_team_stats
+    WHERE champions IS FALSE
+      AND playoffs IS TRUE
+)
+````
+
+CSV outputs stored [here](Output%20CSV's). Averages and league trends are included.
 
 ---
 
-**Author:** Hans Christopher Barrete  
+### Trends Observed
+
+1. **Three-Point Shooting**
+   ![3PT Attempt Rate](charts/3pt_rate.png)
+   The 3PT attempt rate has risen steadily, reflecting a shift toward perimeter offense.
+
+2. **Pace**
+   ![Pace](charts/pace.png)
+   Pace has fluctuated over eras: high in the 1970s, lower in the 2000s (isolation-heavy era).
+
+3. **Championship DNA**
+   ![Championship DNA](charts/Championshiop%20DNA.jpg)
+   Teams with lower defensive ratings tend to win more often than teams with high offensive ratings.
+
+**Conclusion:** Defensive efficiency correlates more strongly with championships than offensive metrics.
+
+---
+
+**Author:** Hans Christopher Barrete
 **Date:** 2025
+
